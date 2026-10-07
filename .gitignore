@@ -1,0 +1,8 @@
+node_modules/
+out/
+.DS_Store
+*.log
+.env
+.env.*
+reference/
+public/audio/reference-narration.m4a

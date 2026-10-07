@@ -1,0 +1,24 @@
+{
+  "name": "popup-book-ad1b3f0a",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A Remotion recreation of a pop-up book motion study.",
+  "scripts": {
+    "dev": "remotion studio src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "render": "remotion render src/index.ts PopUpBook out/popup-book.mp4",
+    "still": "remotion still src/index.ts PopUpBook out/popup-book.png"
+  },
+  "dependencies": {
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "remotion": "4.0.533"
+  },
+  "devDependencies": {
+    "@remotion/cli": "4.0.533",
+    "@types/node": "22.14.0",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.7",
+    "typescript": "5.8.3"
+  }
+}

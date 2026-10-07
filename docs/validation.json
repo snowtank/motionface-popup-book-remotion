@@ -1,0 +1,26 @@
+{
+  "composition": "PopUpBook",
+  "video": {
+    "codec": "h264",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "frames": 1146,
+    "duration_seconds": 38.2
+  },
+  "audio": {
+    "source": "original procedural paper and clockwork score",
+    "codec": "aac",
+    "sample_rate": 48000,
+    "channels": 2
+  },
+  "container_duration_seconds": 38.208,
+  "checks": {
+    "typescript": true,
+    "full_render": true,
+    "full_decode": true,
+    "visual_keyframes": true
+  },
+  "render_sha256": "96fa9909ae382e0fa0cdf64dd6cd28acbc0e40f478c5849bfb6a5706f56752be",
+  "render_bytes": 23017476
+}
